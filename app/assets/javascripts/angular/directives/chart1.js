@@ -100,7 +100,7 @@ angular.module('d3Demo').directive('chart1', ["_", function (_) {
             .filter(function(d){ 
               return _.include(abnormalDays, d);
             })
-            .style({ 'stroke': 'Black', 'fill': 'none', 'stroke-width': '3px'})
+            .style({ 'stroke': 'Black', 'fill': 'none', 'stroke-width': '1px'})
 
           day.selectAll("rect")
               .data(function(d) { return d.results; })

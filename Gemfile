@@ -19,7 +19,7 @@ gem 'shoulda-matchers', github: "thoughtbot/shoulda-matchers" # Using this becau
 gem 'haml'
 gem 'haml-rails'
 gem 'turbolinks'
-gem 'angularjs-rails'
+gem 'angularjs-rails', "1.3.10"
 gem 'angular-rails-templates'
 gem 'has_scope'
 gem 'angular-ui-bootstrap-rails'
